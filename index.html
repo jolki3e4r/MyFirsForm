@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <h2>CONTACTO</h2>
+    <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+    
+    <div class="container">
+      <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Nombre</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Nombre">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Asunto</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Asunto">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Telefono</label>
+        </div>
+        <div class="col-75">
+          <input type="number" class="formStyle" name="Telefono" placeholder="Telefono">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">E-mail</label>
+        </div>
+        <div class="col-75">
+          <input type="email" class="formStyle" name="E-mail" placeholder="E-mail">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Pais</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="Argentina">Argentina</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Costa-rica">Costa Rica</option>
+            <option value="Cuba">Cuba</option>
+            <option value="Ecuador">Ecuaduor</option>
+            <option value="Mexico">Mexico</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Mensaje</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Mensaje" style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Enviar">
+      </div>
+      </form>
+    </div>
+    
+
+
+
+</body>
+</html>
