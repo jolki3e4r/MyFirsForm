@@ -3,13 +3,13 @@
     /*el box-sizing es para que no se desborden las cajas */
   }
   body{
-      background:url(bg1.png) black;
+      background: url(../img/bg1.png) rgb(158, 155, 155);
       font-family: 'Questrial', sans-serif;
     
   }
-/*contenedor de todo*/
+/*contenedor de contenedores*/
   .universal_content{
-      background-color: rgba(201, 201, 201, 0.3);
+      background-color: rgba(172, 171, 171, 0.3);
       display: flex;
       border-radius: 15px;
       box-sizing: border-box;
